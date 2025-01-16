@@ -1,0 +1,23 @@
+input
+   {width: 2em;}
+input, select
+   {margin-right: .5em}
+textarea
+   {font-family: monospace;
+    width: 100%;
+    min-height: 10em}
+
+.inapplicable
+   {display: none}
+
+.forbidden
+   {font-weight: bold;
+    color: black;
+    background: #fcc}
+.unspent
+   {font-weight: bold;
+    color: black;
+    background: #ccf;}
+
+#arcana
+   {margin-top: 1em}
