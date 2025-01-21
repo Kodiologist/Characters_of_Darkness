@@ -225,7 +225,7 @@
 
     ; The "Generate" button
     (E.h2 "Output")
-    (E.div (E.button "Generate") :do (fn [x]
+    (E.div (E.button "Generate ASCII Character Sheet") :do (fn [x]
       (.addEventListener x "click" (:generate listeners))))
     ; The output box
     (E.div (E.textarea :id "stringified")))))
